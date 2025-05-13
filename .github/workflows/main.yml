@@ -2,7 +2,7 @@ name: Merge Web Pages
 
 on:
   schedule:
-    - cron: '0 0 * * 3'  # 每周三运行一次
+    - cron: '0 0 * * 5'  # 每周五运行一次
   workflow_dispatch:  # 添加手动触发支持
 
 jobs:
