@@ -1,2 +1,3 @@
-通过配置config.json来定义输出，输出在output里
-提取网络上的ipset(.txt)合并成一个新的，以供geoip用
+提取网络上的ipset(.txt)合并成一个新的txt文件，以供geoip用
+
+`我知道这是个蠢主意，但是我只能想到这么做了()`
