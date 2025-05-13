@@ -2,7 +2,7 @@ name: Merge Web Pages
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Adjust the schedule as needed
+    - cron: '0 0 * * 3'  # Adjust the schedule as needed
 
 jobs:
   merge-pages:
