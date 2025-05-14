@@ -1,2 +1,0 @@
-Error 404 at https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/vear.txt
-Error 404 at https://raw.githubusercontent.com/loyalsoldier/geoip/release/text/nl
