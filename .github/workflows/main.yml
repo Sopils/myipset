@@ -2,8 +2,8 @@ name: Merge Web Pages
 
 on:
   schedule:
-    - cron: '0 0 * * 5'  # 每周五运行一次
-  workflow_dispatch:  # 添加手动触发支持
+    - cron: '0 0 * * 3'  # 每周三运行一次
+  workflow_dispatch:
 
 jobs:
   merge-pages:
@@ -29,3 +29,4 @@ jobs:
       with:
         commit_message: Merge web pages
         file_pattern: output/*.txt
+        token: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub
